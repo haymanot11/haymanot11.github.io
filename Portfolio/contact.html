@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Haymanot.tech</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <style>
+    body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+    .accent {color:#007BFF;}
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide"><b>Haymanot.tech</b></a>
+    <div class="w3-right w3-hide-small">
+      <a href="about.html" class="w3-bar-item w3-button">About</a>
+      <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+      <a href="certifications.html" class="w3-bar-item w3-button">Certifications</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-blue">Contact</a>
+    </div>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleMenu()">☰</a>
+  </div>
+  <div id="navMobile" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="about.html" class="w3-bar-item w3-button">About</a>
+    <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+    <a href="certifications.html" class="w3-bar-item w3-button">Certifications</a>
+    <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</div>
+
+<!-- PAGE HEADER -->
+<header class="w3-container w3-center" style="padding:96px 16px">
+  <h1 class="w3-xxlarge"><span class="accent">Contact</span> Me</h1>
+  <p class="w3-large">Have a question or want to connect? I’d love to hear from you.</p>
+</header>
+
+<!-- CONTACT INFO GRID -->
+<div class="w3-row-padding w3-content w3-padding-32" style="max-width:900px">
+  <div class="w3-half w3-padding-large">
+    <h3 class="accent">Get in Touch</h3>
+    <p><b>Email:</b> haymanot@haymanot.tech</p>
+    <p><b>Alternate Email:</b> example.alt@gmail.com</p>
+    <p><b>Phone:</b> (000) 000-0000</p>
+    <p><b>LinkedIn:</b> <a href="#" class="accent">linkedin.com/in/haymanot</a></p>
+    <p><b>GitHub:</b> <a href="#" class="accent">github.com/haymanot-tech</a></p>
+    <p><b>Location:</b> Alexandria, VA</p>
+  </div>
+
+  <div class="w3-half w3-padding-large w3-light-grey w3-round-large">
+    <h3 class="accent">Newsletter Signup</h3>
+    <form class="w3-container w3-margin-top">
+      <label class="w3-text-black"><b>Email</b></label>
+      <input class="w3-input w3-border" type="email" placeholder="Enter your email" required>
+      <button class="w3-button w3-blue w3-margin-top w3-round">Subscribe</button>
+    </form>
+  </div>
+</div>
+
+<!-- LONG CONTACT FORM -->
+<div class="w3-container w3-padding-64 w3-light-grey" id="contactForm">
+  <div class="w3-content" style="max-width:700px">
+    <h3 class="w3-center accent">Send Me a Message</h3>
+    <form class="w3-container w3-card w3-white w3-padding-16 w3-margin-top w3-round-large">
+      <label class="w3-text-black"><b>Name</b></label>
+      <input class="w3-input w3-border" type="text" placeholder="Your Name" required>
+
+      <label class="w3-text-black"><b>Email</b></label>
+      <input class="w3-input w3-border" type="email" placeholder="Your Email" required>
+
+      <label class="w3-text-black"><b>Subject</b></label>
+      <input class="w3-input w3-border" type="text" placeholder="Subject">
+
+      <label class="w3-text-black"><b>Message</b></label>
+      <textarea class="w3-input w3-border" rows="5" placeholder="Write your message here..."></textarea>
+
+      <button class="w3-button w3-blue w3-margin-top w3-round">Submit</button>
+    </form>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="w3-center w3-padding-32 w3-light-grey">
+  <p>© 2025 Haymanot.tech | <a href="index.html" class="accent">Home</a></p>
+</footer>
+
+<script>
+function toggleMenu() {
+  var x = document.getElementById("navMobile");
+  if (x.classList.contains("w3-show")) x.classList.remove("w3-show");
+  else x.classList.add("w3-show");
+}
+</script>
+
+</body>
+</html>
