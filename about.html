@@ -23,6 +23,12 @@
       <a href="certifications.html" class="w3-bar-item w3-button">Certifications</a>
       <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
     </div>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleMenu()">☰</a>
+  </div>
+  <div id="navMobile" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+    <a href="certifications.html" class="w3-bar-item w3-button">Certifications</a>
+    <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
   </div>
 </div>
 
@@ -50,4 +56,91 @@
         
       <p>Technical experience includes working with Windows Server and Active Directory, 
         implementing Group Policy, analyzing network traffic using Wireshark, performing vulnerability scanning with Nmap, 
-        and supporting incident response and SOC-style workflow
+        and supporting incident response and SOC-style workflows in lab environments. Strong exposure to networking, operating 
+        systems, endpoint security, and security analysis fundamentals.</p>
+        
+      <p>Brings professional experience from INOVA Health System,
+        supporting 24/7 operational environments through system monitoring, alert response, incident documentation, and strict 
+        procedural compliance in high-pressure settings. Seeking entry-level roles such as Junior Cybersecurity Analyst,
+        SOC Analyst (Tier 1), or Security Operations Analyst, with the ability to contribute immediately while continuing to grow 
+        in security operations and incident response.</p>
+    </div>
+
+  </div>
+
+  <!-- EDUCATION + CAREER GOALS (SIDE BY SIDE) -->
+  <div class="w3-row-padding w3-margin-top">
+
+    <div class="w3-half">
+      <div class="w3-card w3-padding w3-center">
+        <h3>Education</h3>
+        <ol>George Mason University – Bachelor of Applied Science, Cybersecurity (expected 2027)</ol>
+        <ol>Unity University - B.S. Computer Science (2017)</ol>
+        <ol>Northern Virginia Community College – A.A.S. Cloud Computing (2026)</ol>
+        <ol>Northern Virginia Community College – A.A.S. Cybersecurity (2024)</ol>
+        <ol>Per Scholas – IT Support Program (2025)</ol>
+      </div>
+    </div>
+
+    <div class="w3-half">
+      <div class="w3-card w3-padding w3-center">
+        <h3>Career Goals</h3>
+        <p>Junior Cybersecurity and Cloud professional building hands-on expertise in cloud security, network monitoring, and incident response through real-world projects. 
+        Focused on translating these skills into enterprise cybersecurity and cloud security engineering roles while delivering measurable impact.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <h2 class="w3-margin-top">Interests & Skills</h2>
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <div class="w3-card w3-padding w3-center">
+        <h4>Cybersecurity</h4>
+        <ol>SOC operations, incident response, and threat analysis</ol>
+        <ol>Vulnerability assessment, penetration testing, and exploitation simulations</ol>
+        <ol>Security monitoring with SIEM exposure and SOAR-style workflows</ol>
+        <ol>Windows Server firewall and endpoint security configuration</ol>
+        <ol>Threat modeling, auditing, PKI, encryption, and secure communications</ol>
+        <ol>Tools: Wireshark, NetworkMiner, Metasploit, Nmap</ol>
+      </div>
+    </div>
+    <div class="w3-third">
+      <div class="w3-card w3-padding w3-center">
+        <h4>Networking</h4>
+        <ol>TCP/IP, DNS, DHCP, HTTP/S, ICMP fundamentals</ol>
+        <ol>Routers, switches, network segmentation, and LAN/WAN basics</ol>
+        <ol>Network traffic analysis and packet inspection</ol>
+        <ol>VPN configuration and troubleshooting</ol>
+        <ol>Virtualized network lab setup and management</ol>
+      </div>
+    </div>
+    <div class="w3-third">
+      <div class="w3-card w3-padding w3-center">
+        <h4>Cloud Computing</h4>
+        <ol>Cloud fundamentals and virtualization (VMware, Hyper-V)</ol>
+        <ol>Multi-OS virtual labs (Windows 10, Ubuntu Linux)</ol>
+        <ol>Cloud security awareness and identity management</ol>
+        <ol>Monitoring, logging, and cloud resource configuration</ol>
+        <ol>Endpoint hardening and system policy enforcement in cloud/virtual environments</ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="w3-center w3-padding-32 w3-light-grey">
+  <p>© 2025 Haymanot.tech | <a href="contact.html" class="accent">Contact Me</a></p>
+</footer>
+
+<script>
+function toggleMenu() {
+  var x = document.getElementById("navMobile");
+  if (x.classList.contains("w3-show")) x.classList.remove("w3-show");
+  else x.classList.add("w3-show");
+}
+</script>
+
+</body>
+</html>
